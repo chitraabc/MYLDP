@@ -9,5 +9,7 @@
   "messageWhenInvalidDataIsEntered" : "No options",
   "savedJobSuccessMessage" : "Job saved for future reference.",
   "jobAlreadySavedMessage" : "Job already present in saved jobs.",
-  "yourLocationAsSubstring" : "TELANGANA"
+  "yourLocationAsSubstring" : "TELANGANA",
+  "distanceValue" : "0-10 kms",
+  "jobAfterApplyingDistanceFilter" : "Senior Software Engineer"
 }

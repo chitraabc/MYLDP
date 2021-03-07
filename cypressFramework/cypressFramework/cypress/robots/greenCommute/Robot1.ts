@@ -37,6 +37,14 @@ export class RobotEyes extends BaseEyes {
         //this.seesDomContainText("[placeholder='Enter your location']",data);
         this.seesAttributeValue("[placeholder='Enter your location']","value", data);
     }
+
+    seesForJobIfNotPresentInPage(testData : any) {
+        cy.contains(testData.jobAfterApplyingDistanceFilter).should("not.exist")
+    }
+
+    seesForJobIfPresentInPage(testData : any) {
+        cy.contains(testData.jobAfterApplyingDistanceFilter).should("exist")
+    }
    
     
 }
@@ -87,6 +95,34 @@ export class RobotHands extends BaseHands {
     clickOnNextButton() {
         this.clickOnDomIndexChildIndex("data-testid", "button",0,"span",0)  
     }
+
+    
+    clickOnFilter(){
+        this.clickOnDomElement("[data-testid='filterButton']")
+    }
+
+
+      selectDistanceCheckBox(newData : any){
+        this.selectCheckBox(`[type='checkbox'][name="${newData.distanceValue}"]`)
+    }
+
+    unSelectDistanceCheckBox(newData : any){
+        this.unSelectCheckBox(`[type='checkbox'][name="${newData.distanceValue}"]`)
+    }
+
+    clickOnDistanceCheckBox(newData : any){
+        this.selectCheckBox(`[type='checkbox'][name="${newData.distanceValue}"]`)
+    }
+
+    clickOnApplyButton() { 
+        this. clickOnDomIndex("data-testid","button",1);
+        }
+
+    clickOnRemoveDistanceFilter() { 
+        this.clickOnDom(`[data-testid='chip-placeholder']`)
+
+    }
+    
      
     
 }

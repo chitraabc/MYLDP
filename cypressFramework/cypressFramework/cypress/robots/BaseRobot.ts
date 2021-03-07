@@ -227,6 +227,14 @@ export class BaseHands {
     return this;
   }
 
+  selectCheckBox(dom: string){
+    cy.get(dom).check()
+  }
+
+  unSelectCheckBox(dom: string) {
+    cy.get(dom).uncheck()
+}
+
   scrollToWithClassName(domClass: string, direction: PositionType) {
     cy.get(`.${domClass}`).scrollTo(direction);
     return this;
