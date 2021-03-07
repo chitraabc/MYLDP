@@ -7,6 +7,7 @@
     * def otherFeature = read('votes.feature')
     * def result = call otherFeature
 
+  
     Scenario: get vote by id
      * def firstVote = result.response[0]
     Given path 'votes/', firstVote.id

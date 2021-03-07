@@ -1,4 +1,21 @@
-{
+[
+  {
     "image_id":"327f2",
     "sub_id": "my-user-1234"
-  }
+},
+{ "newUser" : [
+  {
+  
+    "id": 0,
+    "username": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "password": "string",
+    "phone": "string",
+    "userStatus": 0
+  
+}
+]
+}
+]
