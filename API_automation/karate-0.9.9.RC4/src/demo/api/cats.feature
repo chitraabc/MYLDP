@@ -25,7 +25,7 @@ Background:
   
   Scenario: post a favourite and delete it
     Given path 'favourites'
-    And request jsonPayload
+    And request jsonPayload[0]
     When method post
     Then status 200
     * def favourite = response

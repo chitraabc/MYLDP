@@ -4,17 +4,19 @@ Feature: sample karate api test script
   Background:
     * url baseURL
     * configure headers = { 'Content-Type': 'application/json' }
+    * def jsonPayload = read('../data/favouritePayLoad.json')
+
     #creates a random string
     * def randomStringusername = 
     """
     currTime = new Date();
-      function(){ return "random username "+currTime.getMilliseconds() } 
+      function(){ return "randomusername"+currTime.getMilliseconds() } 
     """
       
     * def username = call randomStringusername 
   
   
-  Scenario: post a new user
+  Scenario: put call 
     * def user =
       """
       {
@@ -28,9 +30,18 @@ Feature: sample karate api test script
       "userStatus": 0
         }
       """
-    Given path 'v2/user'
+    Given path 'v2/user', jsonPayload[2].username
     And request user
-    When method post
+    When method put
     Then status 200
     Then print response
+
+    Scenario: post a new user
+    Given path 'v2/user'
+    And  param username = username
+    When method get
+    Then status 200
+    Then print response
+
+    
 
