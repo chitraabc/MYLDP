@@ -2,10 +2,10 @@
   for help, see: https://github.com/intuit/karate/wiki/ZIP-Release
 
  Background:
-    * url oauthTokenUrl
+    * url catURL
     * def otherFeature = read('votes.feature')
     * def result = call otherFeature
-    * configure headers = { 'Content-Type': 'application/json', 'Authorization' : result.token }
 
-
+Scenario:
+And header Authorization = 'Bearer'+ result.token
     
