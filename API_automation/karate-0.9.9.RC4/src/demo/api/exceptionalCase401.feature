@@ -1,6 +1,6 @@
 Feature: test favorites 
 Background:
-    * url 'https://api.thecatapi.com/v1'
+    * url catURL
     * configure headers = { 'Content-Type': 'application/json' }
 
   #without authentication token

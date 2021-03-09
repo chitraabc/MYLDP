@@ -1,6 +1,6 @@
 Feature: test favorites 
 Background:
-    * url 'https://api.thecatapi.com/v1'
+    * url catURL
     * configure headers = { 'Content-Type': 'application/json', 'x-api-key' : '17d94b92-754f-46eb-99a0-65be65b5d18f' }
     * def expectedOutput = read('../data/catResult.json')
     * def jsonPayload = read('../data/favouritePayLoad.json')
