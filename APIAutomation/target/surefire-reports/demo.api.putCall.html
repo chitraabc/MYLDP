@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>demo.api.putCall</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-03-10 09:34:55 AM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:19]">[1:19] put call </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">demo/api/putCall.feature</span><span class="feature-description">sample karate api test script | for help, see: https://github.com/intuit/karate/wiki/ZIP-Release</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:19]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:19]</span><span class="scenario-name">put call </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1027</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[1:19]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* url baseURL</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell passed">* configure headers = { 'Content-Type': 'application/json' }</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container" id="3">
+                            <div class="step-ref bg-step">3</div>
+                            <div class="step-cell passed">* def jsonPayload = read('data/favouritePayLoad.json')</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container">
+                            <div class="step-ref bg-step"></div>
+                            <div class="step-cell comment">#creates a random string</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container" id="4">
+                            <div class="step-ref bg-step">4</div>
+                            <div class="step-cell passed">* def randomStringusername =</div>
+                        </div>
+                        <div class="time-cell passed">19</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">currTime = new Date();
+  function(){ return "randomusername"+currTime.getMilliseconds() }</div>
+                    <div class="step-row" data-parent="[1:19]bg">
+                        <div class="step-container" id="5">
+                            <div class="step-ref bg-step">5</div>
+                            <div class="step-cell passed">* def username = call randomStringusername</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* def user =</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">{
+ "id": 0,
+ "username":  #(username),
+ "firstName":  "firstname",
+ "lastName": "lastname",
+ "email": "email",
+ "password": "string",
+ "phone": "string",
+"userStatus": 0
+  }</div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">Given path 'v2/user', jsonPayload[2].username</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">And request user</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">When method put</div>
+                        </div>
+                        <div class="time-cell passed">984</div>
+                    </div>
+                    <div class="preformatted" data-parent="9">09:34:54.719 request:
+1 &gt; PUT https://petstore.swagger.io/v2/user/uname1
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 153
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: petstore.swagger.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.10)
+{"id":0,"username":"randomusername703","firstName":"firstname","lastName":"lastname","email":"email","password":"string","phone":"string","userStatus":0}
+
+09:34:55.715 response time in milliseconds: 981.12
+1 &lt; 200
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Wed, 10 Mar 2021 04:04:55 GMT
+1 &lt; Server: Jetty(9.2.9.v20150224)
+1 &lt; Transfer-Encoding: chunked
+{"code":200,"type":"unknown","message":"999777566"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">Then print response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">09:34:55.716 [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "999777566"
+}</div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

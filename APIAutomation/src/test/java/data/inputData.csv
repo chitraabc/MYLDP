@@ -1,0 +1,4 @@
+user,id,username,firstName,lastName,email,password
+first,1,uname1,fname1,lname1,email1,password1
+second,2,uname2,fname2,lname2,email2,password2
+third,3,uname3,fname3,lname3,email3,password3
