@@ -1,10 +1,12 @@
-package demo.api;
+package GreenCommute;
 
+        import com.intuit.karate.junit5.Karate;
+        import com.intuit.karate.junit5.Karate.Test;
 
-import com.intuit.karate.junit4.Karate;
-import org.junit.runner.RunWith;
+public class Runner {
 
-@RunWith(Karate.class)
-public class runner {
-
+    @Test
+    public Karate testJob() {
+        return Karate.run().relativeTo(getClass());
+    }
 }
