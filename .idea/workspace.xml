@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5c1ec4f-1c4f-4183-84eb-0b6a7f87f3c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APIAutomation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/APIAutomation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/APIAutomation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.cats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.exceptionalCase401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.firstVote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.graphqlAPI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.putCall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.readDatafromFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.schemaValidation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.user_createUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/demo.api.votes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/karate-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/karate-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/karate-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/karate-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/karate-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/surefire-reports/res/karate-report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/data/catResult.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/data/favouritePayLoad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/data/inputData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/data/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/cats.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/exceptionalCase401.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/firstVote.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/graphqlAPI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/karateTests.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/putCall.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/readDatafromFile.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/schemaValidation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/user_createUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIAutomation/target/test-classes/demo/api/votes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/karate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/karate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/authentication.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/cats.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/cats.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/exceptionalCase401.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/exceptionalCase401.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/firstVote.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/firstVote.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/graphqlAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/graphqlAPI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/karateTests.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/karateTests.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/putCall.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/putCall.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/readDatafromFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/readDatafromFile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/schemaValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/schemaValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/useAuthToken.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/user_createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/user_createUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/users.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/api/votes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/demo/api/votes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/data/catResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/data/catResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/data/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/data/favouritePayLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/data/favouritePayLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/data/inputData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/data/inputData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/data/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIAutomation/src/test/java/data/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/mock/cats-mock.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/mock/cats-test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/mock/cats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/robot/calc-old.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/robot/calc.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_automation/karate-0.9.9.RC4/src/demo/web/google.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pY9s822dZjRmnMhVFvCluhm1Fw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5c1ec4f-1c4f-4183-84eb-0b6a7f87f3c0" name="Default Changelist" comment="" />
+      <created>1615349361287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615349361287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Karate api tests in maven project intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="Karate api tests in maven project intellij" />
+  </component>
+</project>
